@@ -115,8 +115,8 @@ def build_dataset(
 
     # split train test
     (train_df, test_df) = (
-        pd.read_csv(f"{base_path}/train/{train_dev}_{floorplan}.csv"),
-        pd.read_csv(f"{base_path}/test/{train_dev}_{floorplan}.csv"),
+        pd.read_csv(f"EPIC_Lab_Data/Data/train/{train_dev}_{floorplan}.csv"),
+        pd.read_csv(f"EPIC_Lab_Data/Data/test/{train_dev}_{floorplan}.csv"),
     )
 
     # get mac IDs
