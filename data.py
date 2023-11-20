@@ -93,7 +93,7 @@ class Devices:
 def build_dataset(
     train_dev: str,
     floorplan: str,
-    base_path="maril/Data",
+    base_path="EPIC_Lab_Data/Data",
 ) -> pd.DataFrame:
     """get dataframe for given device and location
 
