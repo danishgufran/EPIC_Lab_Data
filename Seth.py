@@ -64,7 +64,7 @@ def fetch_seth_original(device, floor, ci, base_path="seth/temp/clean"):
 
     if ci < 10:
         csv_path = os.path.join(base_path, f"{device}_{floor}")
-        return pd.read_csv(csv_path + ".csv"), pd.read_csv(csv_path + "_meta.csv")
+        return pd.read_csv(csv_path + ".csv"), pd.read_csv(csv_path + ".csv")
     else:
         try:
             if "seth" in base_path:
