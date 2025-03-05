@@ -24,7 +24,10 @@ class Devices:
     moto = "MOTO"
     op3 = "OP3"
     s7 = "S7"
-    devices = ["S7", "BLU", "HTC", "LG", "MOTO", "OP3"]
+    i12p = "i12p"
+    nk7 = "nk7"
+    pxl4 = "pxl4"
+    devices = ["S7", "BLU", "HTC", "LG", "MOTO", "OP3", "i12p", "nk7", "pxl4"]
 
 
 MAC_RE = ("^([0-9A-Fa-f]{2}[:-])" + "{5}([0-9A-Fa-f]{2})|" + "([0-9a-fA-F]{4}\\." +
